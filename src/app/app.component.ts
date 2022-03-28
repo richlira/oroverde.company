@@ -6,5 +6,10 @@ import { Component } from '@angular/core';
   styleUrls: ['./app.component.scss']
 })
 export class AppComponent {
-  title = 'oroverde';
+
+  logo: string;
+
+  constructor() {
+    this.logo="/assets/images/logo.png";
+  }
 }
