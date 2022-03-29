@@ -1,10 +1,12 @@
 .OroVerde {
+
     &-container{
         align-items: center;
         display: flex;
         flex-direction: column;
         height: 100vh;
         justify-content: center;
+        
     }
 
     &-logo {
@@ -21,7 +23,7 @@
         }
 
         a:hover {
-            color: gold;
+            color: #Ba9845;
         }
         
         a+a {
